@@ -111,7 +111,7 @@ const Content = ({
         opacity: 0,
         y: 8,
       }}
-      className="absolute left-0 top-[calc(100%_+_24px)] w-96 rounded-lg border border-neutral-600 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-800 p-4"
+      className="absolute z-[100] left-0 top-[calc(100%_+_24px)] md:w-96 w-48 rounded-lg border border-neutral-600 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-800 p-4"
     >
       <Bridge />
       <Nub selected={selected} />
@@ -194,7 +194,7 @@ const Contacts = () => {
 
 const Messages = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 divide-x divide-neutral-700">
+    <div className="grid md:grid-cols-2 gap-4 md:divide-x divide-neutral-700">
       <Link to={'/history'}>
       <a
         href="#"

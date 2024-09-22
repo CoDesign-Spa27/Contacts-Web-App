@@ -58,7 +58,7 @@ const MessageList: React.FC = () => {
 
       <Navbar />
       <div className="w-full max-w-4xl mx-auto p-4">
-        <h1 className="text-4xl py-5 text-center text-gray-100 mb-4 font-black">Select Contact to send Message</h1>
+        <h1 className="text-2xl md:text-4xl py-5 text-center text-gray-100 mb-4 font-black">Select Contact to send Message</h1>
         <motion.div
           className="grid gap-4 grid-cols-1"
           initial="hidden"

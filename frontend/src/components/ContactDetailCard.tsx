@@ -12,8 +12,8 @@ interface ContactDetailCardProps {
 
 const SquishyCard = ({contact}:ContactDetailCardProps) => {
   return (
-    <section className="w-full  px-4 py-12">
-      <div className="mx-auto w-fit">
+    <section className="w-full flex items-center justify-center">
+      <div className="">
         <Card contact={contact} />
       </div>
     </section>
@@ -59,7 +59,7 @@ const Card = ({contact}:ContactDetailCardProps) => {
             duration: 1,
             ease: "backInOut",
           }}
-          className="my-2 block origin-top-left font-mono text-6xl font-black leading-[1.2]"
+          className="my-2 block origin-top-left font-mono text-5xl md:text-6xl font-black leading-[1.2]"
         >
         {contact.firstName}
           <br />
