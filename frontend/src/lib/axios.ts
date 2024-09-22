@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL:'http://localhost:3000/api/contacts',
+    baseURL:'https://contacts-web-app-fh7q.onrender.com/api/contacts',
     timeout: 5000
 })
 
